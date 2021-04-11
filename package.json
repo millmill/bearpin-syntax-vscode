@@ -1,0 +1,21 @@
+{
+    "name": "Bearpin",
+    "displayName": "Bearpin",
+    "description": "I am trying to make a colour theme that's perfect for me and my eyes. Let's see if it works",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bearpin",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Bearpin-color-theme.json"
+            }
+        ]
+    }
+}
