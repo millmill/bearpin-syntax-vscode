@@ -2,9 +2,20 @@
     "name": "bearpip",
     "displayName": "Bearpip",
     "description": "I am trying to make a colour theme that's perfect for me and my eyes. Let's see if it works",
+    "publisher": "CamBamCodes",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.55.0"
+    },
+    //"icon":,
+    "author": {
+        "name": "Camilla Boyle",
+        //"email": "tbd.com",
+        //"url": "inserturlhere.com",
+    },
+    "repository": {
+        "url": "https://github.com/millmill/bearpip-syntax-vscode.git",
+        "type": "git"
     },
     "categories": [
         "Themes"
