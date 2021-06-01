@@ -1,6 +1,6 @@
 {
-    "name": "Bearpin",
-    "displayName": "Bearpin",
+    "name": "bearpip",
+    "displayName": "Bearpip",
     "description": "I am trying to make a colour theme that's perfect for me and my eyes. Let's see if it works",
     "version": "0.0.1",
     "engines": {
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Bearpin",
+                "label": "Bearpip",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Bearpin-color-theme.json"
+                "path": "./themes/Bearpip-color-theme.json"
             }
         ]
     }

@@ -1,5 +1,5 @@
 {
-	"name": "bearpin",
+	"name": "Bearpip",
 	"displayName": "fill this in later. cb",
 	"description": "also to be filled in later. cb",
 	"publisher": "I'm not sure what this is. Is this my code name for myself? cb.",
@@ -7,7 +7,7 @@
 	"engines": {
 		"vscode": ""
 	},
-	"icon": "example_icons/bearpin-icon-.png",
+	"icon": "example_icons/Bearpip-icon-.png",
 	"author": {
 		"name": "I guess my name now? cb",
 		"email": "an email address that I'll decide on later. cb",
@@ -25,7 +25,7 @@
 			{
 				"label": "whatever my label is. eg nanowise dark. cb",
 				"uiTheme": "vs-dark",
-				"path": ".themes/bearpin-color-theme.json"
+				"path": ".themes/Bearpip-color-theme.json"
 			}
 		]
 	},
@@ -152,7 +152,7 @@
 		
 		// editorGroup
 		// "editorGroup.background": "#A22929", // this is now depreciated for editorGroup.emptyBackground
-		"editorGroup.emptyBackground": "A22929", // this sets the background colour of empty editor groups
+		"editorGroup.emptyBackground": "#A22929", // this sets the background colour of empty editor groups
 		"editorGroup.border": "#122738",
 		"editorGroup.dropBackground": "#12273899",
 		
@@ -323,20 +323,28 @@
 		
 		// --- workbench: terminal
 		"terminal.ansiBlack": "#000000",
-		"terminal.ansiRed": "#ff628c",
-		"terminal.ansiGreen": "#3ad900",
+		// "terminal.ansiRed": "#ff628c", 		// this is pink
+		"terminal.ansiRed": "#F2777A",		// this is a nice coral red
+		// "terminal.ansiGreen": "#3ad900",		// this green is a lil neon
+		"terminal.ansiGreen": "#99CC99",		// this green is kinder on my eyes
 		"terminal.ansiYellow": "#ffc600",
 		"terminal.ansiBlue": "#0088ff",
-		"terminal.ansiMagenta": "#fb94ff",
-		"terminal.ansiCyan": "#80fcff",
+		// "terminal.ansiMagenta": "#fb94ff",	// this magenta is too much for me
+		"terminal.ansiMagenta": "#CC99CC",	// this magenta is more pastel
+		// "terminal.ansiCyan": "#80fcff",		// this cyan might be too bright for me
+		"terminal.ansiCyan": "#66CCCC", 		// I think this cyan suits me better
 		"terminal.ansiWhite": "#ffffff",
 		"terminal.ansiBrightBlack": "#0050A4",
-		"terminal.ansiBrightRed": "#ff628c",
-		"terminal.ansiBrightGreen": "#3ad900",
+		// "terminal.ansiBrightRed": "#ff628c",		// this is pink
+		"terminal.ansiBrightRed": "#F2777A",		// this is a nice coral red
+		// "terminal.ansiBrightGreen": "#3ad900",		// this green is a lil neon
+		"terminal.ansiBrightGreen": "#99CC99",		// this green is kinder on my eyes
 		"terminal.ansiBrightYellow": "#ffc600",
 		"terminal.ansiBrightBlue": "#0088ff",
-		"terminal.ansiBrightMagenta": "#fb94ff",
-		"terminal.ansiBrightCyan": "#80fcff",
+		// "terminal.ansiBrightMagenta": "#fb94ff",	// this magenta is too much for me
+		"terminal.ansiBrightMagenta": "#CC99CC",	// this magenta is more pastel
+		// "terminal.ansiBrightCyan": "#80fcff",		// this cyan might be too bright for me
+		"terminal.ansiBrightCyan": "#66CCCC", 		// I think this cyan suits me better
 		"terminal.ansiBrightWhite": "#ffffff",
 		"terminal.background": "#122738",
 		"terminal.foreground": "#ffffff",
@@ -499,18 +507,28 @@
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "String, Symbols, Inherited Class",
 			"scope": [
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
-				"markup.heading",
-				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#FFFFFF" 	// white
+				// "foreground": "#FFCC66"		// yellow
+			}
+		},
+		{
+			"name": "Markup Heading",
+			"scope": [
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"markup.changed.git_gutter",
+			],
+			"settings": {
+				"foreground": "#99CC99"
 			}
 		},
 		{
@@ -522,7 +540,7 @@
 				"support.orther.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
-				"markup.changed.git_gutter",
+				// "markup.changed.git_gutter",
 				"support.type.sys-types"
 			],
 			"settings": {
@@ -786,7 +804,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#99CC99"
 			}
 		},
 		{
@@ -825,7 +843,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#99CC99"
 			}
 		},
 		{
