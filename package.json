@@ -7,11 +7,8 @@
     "engines": {
         "vscode": "^1.55.0"
     },
-    //"icon":,
     "author": {
-        "name": "Camilla Boyle",
-        //"email": "tbd.com",
-        //"url": "inserturlhere.com",
+        "name": "Camilla Boyle"
     },
     "repository": {
         "url": "https://github.com/millmill/bearpip-syntax-vscode.git",
