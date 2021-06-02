@@ -1,8 +1,8 @@
 {
 	"name": "Bearpip",
 	"displayName": "fill this in later. cb",
-	"description": "also to be filled in later. cb",
-	"publisher": "I'm not sure what this is. Is this my code name for myself? cb.",
+	"description": "My screen is not good quality so I need to try to find a theme that helps me read code despite this fact",
+	"publisher": "CamBamCodes",
 	"version": "0.1.0",
 	"engines": {
 		"vscode": ""
@@ -14,7 +14,7 @@
 		"url": "maybe this will be to git repo? cb"
 	},
 	"repository": {
-		"url": "no here is where the git repo will go. cb",
+		"url": "https://github.com/millmill/bearpip-syntax-vscode",
 		"type": "git"
 	},
 	"categories": [
@@ -42,8 +42,16 @@
 			"italic": true
 		},
 		"type": {
+			/*
+			-----------------------------------------------------------------------------
+			Base Colors
+			-----------------------------------------------------------------------------
+			Defaults for editor elements, will be used if not set by a specific component
+			focusBorder. TODO: widget.shadow, selection.background */
+			"foreground": "#E6E6E6", 			// "_foreground", from panda
+			"errorForeground": "#FF4B82",		  // "_light-red",
 			// "foreground": "#ff0088",
-			"foreground": "#FF68B8",
+			// "foreground": "#FF68B8",
 			"italic": true
 		},
 		// This colours both object definiton properties, as well as references. If the property does not exist, it will be white\.
@@ -57,20 +65,43 @@
 		"menu.selectionForeground": "#fff",
 		"menubar.selectionBackground": "#0d3a58",
 		
-		// activityBar
-		"activityBar.background": "#122738",
-		"activityBar.border": "#0d3a58",
+		/*
+		-----------------------------------------------------------------------------
+		Activity Bar
+		-----------------------------------------------------------------------------
+		The far left sidebar (which can be hidden with: Toggle Activity Bar Visibility!)
+		*/
+		"activityBar.background": "#222223",				// _charcoal, panda
+		"activityBar.foreground": "#E6E6E6", 				// _foreground, panda
+		"activityBar.border": "#222223",					// _charcoal, panda
+		// "activityBarBadge.background": "#19f9d8", 				// _green, panda
+		"activityBarBadge.foreground": "#242526", 			// _background-dark, panda
+		/*----------------------------------------------------------------------------*/
+		// "activityBar.background": "#122738",		  // navy blue
+		// "activityBar.background": "#011627", 		// dark blue
+		// "activityBar.border": "#0d3a58",			// navy blue
+		// "activityBar.border": "#011627", 			// dark blue
 		// "activityBar.dropBackground": "#0d3a58",  // this one doesn't get accepted for whatever reason
-		"activityBar.foreground": "#fff",
-		"activityBarBadge.background": "#ffc600",
-		// "activityBarBadge.background": "#007acc",
-		"activityBarBadge.foreground": "#000",
+		// "activityBar.foreground": "#fff",
+		// "activityBarBadge.background": "#ffc600",
+		"activityBarBadge.background": "#007acc",			// nice blue
+		// "activityBarBadge.foreground": "#000",
 
-
-		// badge
-		"badge.background": "#ffc600",
-		"badge.foreground": "#000",
-		
+		/* -----------------------------------------------------------------------------
+		Badges
+		-----------------------------------------------------------------------------
+		*/
+		"badge.background": "#6FC1FF",					// _light-blue, panda
+		"badge.foreground": "#242526",					// _background-dark, panda
+		// "badge.background": "#ffc600",
+		// "badge.foreground": "#000",
+		/*-----------------------------------------------------------------------------
+		ProgressBar
+		-----------------------------------------------------------------------------
+		*/
+		"progressBar.background": "#B084EB",			// _purple,
+		// "progressBar.background": "#ffc600",  		  // yellow,
+		/*----------------------------------------------------------------------------*/
 		// button
 		"button.background": "#0088ff",
 		"button.foreground": "#fff",
@@ -274,9 +305,6 @@
 		// picker
 		"pickerGroup.border": "#0d3a58",
 		"pickerGroup.foreground": "#aaa",
-		
-		// progressBar
-		"progressBar.background": "#ffc600",
 		
 		// scrollbar
 		"scrollbar.shadow": "#00000000",
