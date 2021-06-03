@@ -73,7 +73,8 @@
 		*/
 		"activityBar.background": "#222223",				// _charcoal, panda
 		"activityBar.foreground": "#E6E6E6", 				// _foreground, panda
-		"activityBar.border": "#222223",					// _charcoal, panda
+		// "activityBar.border": "#222223",					// _charcoal, panda
+		"activityBar.border": "#ffc600",
 		// "activityBarBadge.background": "#19f9d8", 				// _green, panda
 		"activityBarBadge.foreground": "#242526", 			// _background-dark, panda
 		/*----------------------------------------------------------------------------*/
@@ -83,8 +84,8 @@
 		// "activityBar.border": "#011627", 			// dark blue
 		// "activityBar.dropBackground": "#0d3a58",  // this one doesn't get accepted for whatever reason
 		// "activityBar.foreground": "#fff",
-		// "activityBarBadge.background": "#ffc600",
-		"activityBarBadge.background": "#007acc",			// nice blue
+		"activityBarBadge.background": "#ffc600",		// nice yellow
+		// "activityBarBadge.background": "#007acc",			// nice blue
 		// "activityBarBadge.foreground": "#000",
 
 		/* -----------------------------------------------------------------------------
@@ -160,7 +161,7 @@
 		"editor.selectionBackground": "#0050A4",
 		// This is the colour of the other matching elements
 		"editor.selectionHighlightBackground": "#0050A480",
-		// if you tab away you can colour it differently, but ill leave this one out
+		// if you tab away you can colour it differently, but I will leave this one out
 		// "editor.inactiveSelectionBackground": "",
 		// Word Highlights! This happens when you move your cursor inside a variable
 		// Strong is the one where your cursor currently is
@@ -176,20 +177,23 @@
 		"editorError.foreground": "#A22929",
 		
 		// gutter
-		"editorGutter.background": "#12273866",
+		// "editorGutter.background": "#12273866",
+		"editorGutter.background": "#292A2B",		// _background-light, panda		// testing!!!			// _background-dark, panda
 		"editorGutter.addedBackground": "#3C9F4A",
 		"editorGutter.deletedBackground": "#A22929",
 		"editorGutter.modifiedBackground": "#26506D",
 		
 		// editorGroup
 		// "editorGroup.background": "#A22929", // this is now depreciated for editorGroup.emptyBackground
-		"editorGroup.emptyBackground": "#A22929", // this sets the background colour of empty editor groups
+		// "editorGroup.emptyBackground": "#A22929", // this sets the background colour of empty editor groups
+		"editorGroup.emptyBackground": "#292A2B",		// seal, panda
 		"editorGroup.border": "#122738",
 		"editorGroup.dropBackground": "#12273899",
 		
 		// editorGroupHeader
 		"editorGroupHeader.noTabsBackground": "#193549",
-		"editorGroupHeader.tabsBackground": "#122738",
+		// "editorGroupHeader.tabsBackground": "#122738",
+		"editorGroupHeader.tabsBackground": "#242526",				// _background-dark, panda
 		"editorGroupHeader.tabsBorder": "#15232d",
 		
 		// editorHoverWidget
@@ -281,7 +285,8 @@
 		"notificationLink.foreground": "#ffc600",
 		
 		// panel
-		"panel.background": "#122738",
+		// "panel.background": "#122738",
+		"panel.background": "#292A2B",
 		"panel.border": "#ffc600",
 		"panelTitle.activeBorder": "#ffc600",
 		"panelTitle.activeForeground": "#ffc600",
@@ -303,7 +308,7 @@
 		"peekViewTitleLabel.foreground": "#ffc600",
 		
 		// picker
-		"pickerGroup.border": "#0d3a58",
+		"pickerGroup.border": "#ffc600",
 		"pickerGroup.foreground": "#aaa",
 		
 		// scrollbar
@@ -315,36 +320,66 @@
 		// selection
 		"selection.background": "#027dff",
 		
-		// sidebar
-		"sideBar.background": "#15232d",
-		"sideBar.border": "#0d3a58",
-		"sideBar.foreground": "#aaa",
-		"sideBarSectionHeader.background": "#193549",
-		"sideBarSectionHeader.foreground": "#aaaaaa",
-		"sideBarTitle.foreground": "#aaaaaa",
-		// "sideBarTitle.foreground": "#bbbbbb",
+		/*
+		-----------------------------------------------------------------------------
+		Sidebar
+		-----------------------------------------------------------------------------
+		The side bar includes the file tree, search interface, git status and debug
+		interfaces. It is located between the Activity Bar and the Editor.
+		*/
+		// "sideBar.background": "#15232d",
+		// "sideBar.border": "#0d3a58",
+		// "sideBar.foreground": "#aaa",
+		// "sideBarSectionHeader.background": "#193549",
+		// "sideBarSectionHeader.foreground": "#aaaaaa",
+		// "sideBarTitle.foreground": "#aaaaaa",
+		// // "sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#242526", 			// _background-dark, panda
+		"sideBar.border":  "#ffc600",				// _charcoal, panda
+		"sideBar.foreground": "#bbbbbb",				// _contrast-gray,
+		// "sideBarSectionHeader.background": "#193549",
+		// "sideBarSectionHeader.foreground": "#aaaaaa",
+		// "sideBarTitle.foreground": "#aaaaaa",
 		
-		// statusBar
-		"statusBar.background": "#15232d",
-		"statusBar.border": "#0d3a58",
-		"statusBar.debuggingBackground": "#15232d",
-		"statusBar.debuggingBorder": "#ffc600",
-		"statusBar.debuggingForeground": "#ffc600",
-		"statusBar.foreground": "#aaa",
-		"statusBar.noFolderBackground": "#15232d",
-		"statusBar.noFolderBorder": "#0d3a58",
-		"statusBar.noFolderForeground": "#aaa",
-		"statusBarItem.activeBackground": "#0088ff",
-		"statusBarItem.hoverBackground": "#0d3a58",
-		"statusBarItem.prominentBackground": "#15232d",
-		"statusBarItem.prominentHoverBackground": "#0d3a58",
+		/*
+		-----------------------------------------------------------------------------
+		Status Bar
+		-----------------------------------------------------------------------------
+		Bar at bottom of editor with status updates
+		*/
+		"statusBar.background": "#222223",				// _charcoal, panda
+		"statusBar.border": "#ffc600",
+		"statusBar.foreground": "#E6E6E6", 				// _foreground, from panda
+		"statusBar.noFolderBackground": "#242526",		// _background-dark, panda
+		"statusBar.noFolderForeground": "#E6E6E6",		// _foreground, panda 
+		"statusBar.debuggingBackground": "#B084EB",					// _purple, panda 
+		"statusBar.debuggingForeground": "#E6E6E6",					// _foreground panda 
+		//------------------------------------------------------------------------
+		// "statusBar.background": "#15232d",
+		// "statusBar.border": "#0d3a58",
+		// "statusBar.debuggingBackground": "#15232d",
+		// "statusBar.debuggingBorder": "#ffc600",
+		// "statusBar.debuggingForeground": "#ffc600",
+		// "statusBar.foreground": "#aaa",
+		// "statusBar.noFolderBackground": "#15232d",
+		// "statusBar.noFolderBorder": "#0d3a58",
+		// "statusBar.noFolderForeground": "#aaa",
+		// "statusBarItem.activeBackground": "#0088ff",
+		// "statusBarItem.hoverBackground": "#0d3a58",
+		// "statusBarItem.prominentBackground": "#15232d",
+		// "statusBarItem.prominentHoverBackground": "#0d3a58",
 		
 		// tab
-		"tab.activeBackground": "#193549",
-		"tab.activeForeground": "#fff",
-		"tab.border": "#15232D",
+		// "tab.activeBackground": "#193549",
+		"tab.activeBackground": "#292A2B",		// _background-light, panda
+		// "tab.activeForeground": "#fff",
+		"tab.activeForeground": "#BCAAFE",		// _light-purple panda
+		// "tab.border": "#15232D",				// very dark blue
+		"tab.border": "#aaa",				// faint grey
+		// "tab.border": "#ffc600",
 		"tab.activeBorder": "#ffc600",
-		"tab.inactiveBackground": "#122738",
+		// "tab.inactiveBackground": "#122738",
+		"tab.inactiveBackground": "#242526",		// _background-dark, panda
 		"tab.inactiveForeground": "#aaa",
 		"tab.unfocusedActiveForeground": "#aaa",
 		"tab.unfocusedInactiveForeground": "#aaa",
@@ -374,7 +409,8 @@
 		// "terminal.ansiBrightCyan": "#80fcff",		// this cyan might be too bright for me
 		"terminal.ansiBrightCyan": "#66CCCC", 		// I think this cyan suits me better
 		"terminal.ansiBrightWhite": "#ffffff",
-		"terminal.background": "#122738",
+		// "terminal.background": "#122738",
+		"terminal.background": "#292A2B",		// _background-light, panda,
 		"terminal.foreground": "#ffffff",
 		"terminalCursor.background": "#ffc600",
 		"terminalCursor.foreground": "#ffc600",
@@ -394,9 +430,11 @@
 		"textLink.foreground": "#0088ff",
 		"textPreformat.foreground": "#ffc600",
 		"textSeparator.foreground": "#0d3a58",
-		"titleBar.activeBackground": "#15232D",
+		// "titleBar.activeBackground": "#15232D",
+		"titleBar.activeBackground": "#242526",		// _background-dark, panda
 		"titleBar.activeForeground": "#ffffff",
-		"titleBar.inactiveBackground": "#193549",
+		// "titleBar.inactiveBackground": "#193549",
+		"titleBar.inactiveBackground": "#242526",		// _background-dark, panda
 		"titleBar.inactiveForeground": "#ffffff33",
 		"walkThrough.embeddedEditorBackground": "#0d3a58",
 		"welcomePage.buttonBackground": "#193549",
