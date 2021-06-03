@@ -178,7 +178,7 @@
 		
 		// gutter
 		// "editorGutter.background": "#12273866",
-		"editorGutter.background": "#292A2B",		// _background-light, panda		// testing!!!			// _background-dark, panda
+		"editorGutter.background": "#292A2B",		// _background-light, panda
 		"editorGutter.addedBackground": "#3C9F4A",
 		"editorGutter.deletedBackground": "#A22929",
 		"editorGutter.modifiedBackground": "#26506D",
