@@ -1,5 +1,5 @@
 # README
-## This is the README for my first vscode theme "Bearpip"
+## This is the README for my first vscode theme "Bearpip" ✨🐈‍⬛🐈‍⬛✨
 
 &nbsp;  
 
@@ -7,7 +7,7 @@ Please enjoy my (hopefully) lovely theme, or at least I hope you do. I will be e
 
 &nbsp;  
 
-I made this mainly because my screen quality is so bad and a lot of the themes I have found so far I'll either like the text colours but the background didn't match, or there was one colour (usually pink) that I disliked. In the end I just decided maybe it would be easier to create my own.  
+I made this mainly because my screen quality is so bad and a lot of the themes I have found so far I'll either like the text colours but the background didn't match what I need, or there was one colour (usually pink) that I disliked. In the end I just decided maybe it would be easier to create my own.  
 
 &nbsp;  
 
@@ -19,4 +19,4 @@ I hope this is ok. I can't imagine anyone will even find this theme anyway, but 
 
 &nbsp;  
 
-**Thank you for reading, I hope you like it!**
+**✨ Thank you for reading, I hope you like it! ✨**
