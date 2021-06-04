@@ -3,7 +3,7 @@
 	"displayName": "fill this in later. cb",
 	"description": "My screen is not good quality so I need to try to find a theme that helps me read code despite this fact",
 	"publisher": "CamBamCodes",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"engines": {
 		"vscode": ""
 	},
