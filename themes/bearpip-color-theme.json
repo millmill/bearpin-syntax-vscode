@@ -3,7 +3,7 @@
 	"displayName": "fill this in later. cb",
 	"description": "My screen is not good quality so I need to try to find a theme that helps me read code despite this fact",
 	"publisher": "CamBamCodes",
-	"version": "0.1.1",
+	"version": "0.1.1",		// change here for vsce publish
 	"engines": {
 		"vscode": ""
 	},
@@ -187,8 +187,8 @@
 		"editorError.foreground": "#A22929",
 		
 		// gutter
-		// "editorGutter.background": "#12273866",		// editor where the numbers are
-		"editorGutter.background": "#292A2B66",		// _background-light, panda
+		"editorGutter.background": "#12273866",		// editor where the numbers are
+		// "editorGutter.background": "#292A2B66",		// _background-light, panda
 		"editorGutter.addedBackground": "#3C9F4A",
 		"editorGutter.deletedBackground": "#A22929",
 		"editorGutter.modifiedBackground": "#26506D",
@@ -197,7 +197,8 @@
 		// "editorGroup.background": "#A22929", // this is now depreciated for editorGroup.emptyBackground
 		// "editorGroup.emptyBackground": "#A22929", // this sets the background colour of empty editor groups
 		"editorGroup.emptyBackground": "#292A2B",		// -background-light, panda
-		"editorGroup.border": "#122738",
+		// "editorGroup.border": "#122738",
+		"editorGroup.border": "#ffc60066",				// the border between editor split screens
 		"editorGroup.dropBackground": "#12273899",
 		
 		// editorGroupHeader
