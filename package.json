@@ -3,7 +3,7 @@
     "displayName": "Bearpip",
     "description": "I am trying to make a colour theme that's perfect for me and my eyes. Let's see if it works",
     "publisher": "CamBamCodes",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.55.0"
     },
