@@ -1,13 +1,63 @@
-language: node_js
-node_js:
-  - "6"
-install:
-  - npm install
-script:
-  - npm test
-after_script:
-  - npm run coveralls
-notifications:
-  email:
-    on_success: never
-    on_failure: always
+environments:
+    - development:
+          applications:
+              - name: approuter-name
+                memory: 256M
+                routes:
+                    - route: route here
+                env:
+                    destinations: >
+                        [
+                            {
+                                "name": "project-backend",
+                                "url": "https://project-backend-srv-dev.address.com/",
+                                "forwardAuthToken": true
+                            },
+                            {
+                                "name": "project-chat-service",
+                                "url": "https://project-chat-srv-dev.address.com/",
+                                "forwardAuthToken": true
+                            }
+                        ]
+    - test:
+          applications:
+              - name: project-approuter
+                memory: 256M
+                routes:
+                    - route: project-app-test.address.com
+                env:
+                    destinations: >
+                        [
+                            {
+                                "name": "project-backend",
+                                "url": "https://project-backend-srv-test.address.com/",
+                                "forwardAuthToken": true
+                            },
+                            {
+                                "name": "project-chat-service",
+                                "url": "https://project-chat-srv-test.address.com/",
+                                "forwardAuthToken": true
+                            }
+                        ]
+    - production:
+          applications:
+              - name: project-approuter
+                memory: 2G
+                routes:
+                    - route: project-app.address.com
+                env:
+                    destinations: >
+                        [
+                            {
+                                "name": "project-backend",
+                                "url": "https://project-backend-srv.address.com/",
+                                "forwardAuthToken": true
+                            },
+                            {
+                                "name": "project-chat-service",
+                                "url": "https://project-chat-srv.address.com/",
+                                "forwardAuthToken": true
+                            }
+                        ]
+ 
+

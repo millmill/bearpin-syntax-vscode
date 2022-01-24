@@ -155,7 +155,7 @@
     	// Currently found item
     	"editor.findMatchBackground": "#FF720066",
     	// Other Found Items int the document
-    	"editor.findMatchHighlightBackground": "#CAD40F66",
+    	"editor.findMatchHighlightBackground": "#02f47b28",
     	// No idea what this one is for... hoover over to get some kind of idea?
     	"editor.findRangeHighlightBackground": "#243E51",
     	// When you hover over something and a popup shows, this highlights that thing
@@ -187,7 +187,7 @@
 		"editorError.foreground": "#A22929",
 		
 		// gutter
-		"editorGutter.background": "#12273866",		// editor where the numbers are
+		"editorGutter.background": "#12273866",		// editor where the line numbers are
 		// "editorGutter.background": "#292A2B66",		// _background-light, panda
 		"editorGutter.addedBackground": "#3C9F4A",
 		"editorGutter.deletedBackground": "#A22929",
@@ -326,7 +326,7 @@
 		"scrollbar.shadow": "#00000000",
 		"scrollbarSlider.activeBackground": "#355166cc",
 		"scrollbarSlider.background": "#1F466280",
-		"scrollbarSlider.hoverBackground": "#406179cc",
+		"scrollbarSlider.hoverBackground": "#69b1e4cc",
 		
 		// selection
 		"selection.background": "#027dff",
@@ -356,7 +356,7 @@
 		-----------------------------------------------------------------------------
 		Status Bar
 		-----------------------------------------------------------------------------
-		Bar at bottom of editor with status updates
+		Bar at very bottom of editor with status updates
 		*/
 		// "statusBar.background": "#222223",				// _charcoal, panda
 		"statusBar.border": "#ffc600",
@@ -366,7 +366,8 @@
 		"statusBar.debuggingBackground": "#B084EB",					// _purple, panda 
 		"statusBar.debuggingForeground": "#E6E6E6",					// _foreground panda 
 		//------------------------------------------------------------------------
-		"statusBar.background": "#15232d",				// EDGING
+		// "statusBar.background": "#15232d",				// EDGING
+		"statusBar.background": "#1d928e",				// EDGING VERY BOTTOM BAR - tiffany blue
 		// "statusBar.border": "#0d3a58",
 		// "statusBar.debuggingBackground": "#15232d",
 		// "statusBar.debuggingBorder": "#ffc600",
@@ -381,19 +382,19 @@
 		// "statusBarItem.prominentHoverBackground": "#0d3a58",
 		
 		// tab
-		"tab.activeBackground": "#193549",		// EDGING - the tab you are currenntly on
+		"tab.activeBackground": "#193549",		// EDGING - the tab you are currently on
 		// "tab.activeBackground": "#292A2B",		// _background-light, panda
 		// "tab.activeForeground": "#fff",
-		"tab.activeForeground": "#BCAAFE",		// _light-purple panda
-		// "tab.border": "#15232D",				// very dark blue
+		"tab.activeForeground": "#BCAAFE",		// _light-purple panda text tab title currently using
+		// "tab.border": "#e407d9",				// bright pink
 		"tab.border": "#aaa",				// faint grey
 		// "tab.border": "#ffc600",
 		"tab.activeBorder": "#ffc600",
 		"tab.inactiveBackground": "#122738",		// EDGING
 		// "tab.inactiveBackground": "#242526",		// _background-dark, panda
-		"tab.inactiveForeground": "#aaa",
-		"tab.unfocusedActiveForeground": "#aaa",
-		"tab.unfocusedInactiveForeground": "#aaa",
+		"tab.inactiveForeground": "#aaa",			// text tab title - inactive
+		"tab.unfocusedActiveForeground": "#aaa",		// tab text title same split section
+		"tab.unfocusedInactiveForeground": "#aaa",		// tab text title different split section
 		
 		// --- workbench: terminal
 		"terminal.ansiBlack": "#000000",
@@ -441,12 +442,21 @@
 		"textLink.foreground": "#0088ff",
 		"textPreformat.foreground": "#ffc600",
 		"textSeparator.foreground": "#0d3a58",
-		"titleBar.activeBackground": "#15232D",		// EDGING - bar right at the top with traffic light buttons
+		// "titleBar.activeBackground": "#437faa",		// EDGING - bar at the very top with traffic light buttons (if multiple windows - active window)
 		// "titleBar.activeBackground": "#242526",		// _background-dark, panda
-		"titleBar.activeForeground": "#ffffff",
-		"titleBar.inactiveBackground": "#193549",	// EDGING
+		"titleBar.activeBackground": "#086ef4e1",		// cornflower blue
+		// "titleBar.activeForeground": "#ffffff",
+		// "titleBar.inactiveBackground": "#ffc600",	// EDGING - bar at the very top with traffic light buttons (if multiple windows - inactive window)
 		// "titleBar.inactiveBackground": "#242526",		// _background-dark, panda
-		"titleBar.inactiveForeground": "#ffffff33",
+		"titleBar.inactiveBackground": "#1d928e",		// tiffany blue
+		// "titleBar.border": "#ff00dd",					//bright pink
+		
+		"titleBar.activeForeground": "#eeeeee",			// text colour very top title bar active window - almost white
+        "titleBar.inactiveForeground": "#f7deaa",			// text colour very top title bar inactive window - hint of yellow
+        // "titleBar.activeBackground": "#16161e",
+        // "titleBar.inactiveBackground": "#16161e",
+        "titleBar.border": "#101014",
+
 		"walkThrough.embeddedEditorBackground": "#0d3a58",
 		"welcomePage.buttonBackground": "#193549",
 		"welcomePage.buttonHoverBackground": "#0d3a58",
@@ -461,7 +471,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#8aa6b3"
 			}
 		},
 		{
@@ -621,7 +631,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FFCB6B"		// this is the yellow everywhere needs to change
 			}
 		},
 		{
