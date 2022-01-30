@@ -16,5 +16,5 @@ All notable changes to the "Bearpip" extension will be documented in this file.
 ## "0.1.3"
 - Found that the title bar gets confused on my poor quality screen, some text colours needed to be changed for visiblity. Lightened comments and made words legible after being highlighted.
 
-## "0.1.4"
-- Changed the overwhelming purple colour in some places. Added more green where it was lacking. Still not perfect, but we're getting closer I feel.
+## "0.1.5"
+- Changed the overwhelming purple colour in some places. Added more green where it was lacking. Still not perfect, but we're getting closer I feel. (skipped 0.1.4 due to a typo)
