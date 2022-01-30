@@ -3,7 +3,7 @@
 	"displayName": "fill this in later. cb",
 	"description": "My screen is not good quality so I need to try to find a theme that helps me read code despite this fact",
 	"publisher": "CamBamCodes",
-	"version": "0.1.3",		// change package.json for vsce publish to work
+	"version": "0.1.4",		// change package.json for vsce publish to work
 	"engines": {
 		"vscode": ""
 	},
@@ -482,6 +482,7 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+				// "foreground": "#FF0088"		// hot pink
 			}
 		},
 		{
@@ -491,6 +492,7 @@
 			],
 			"settings": {
 				"foreground": "#ffffff"
+				// "foreground": "#FF0088"		// hot pink
 			}
 		},
 		{
@@ -506,12 +508,32 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": [
-				"keyword",
-				"storage.type",
+				"keyword"
+			],
+			"settings": {
+				// "foreground": "#C792EA"			// cds attribute name
+				"foreground": "#4cb667"				// great green option too irish flag-y for cds?
+				"foreground": "#4cb667"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"storage.type"
+			],
+			"settings": {
+				// "foreground": "#C792EA"
+				"foreground": "#92fc79"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
 				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#C792EA"
+				// "foreground": "#92fc79"
 			}
 		},
 		{
@@ -604,7 +626,7 @@
 			],
 			"settings": {
 				"foreground": "#FFFFFF" 	// white
-				// "foreground": "#FFCC66"		// yellow
+				// "foreground": "#FF0088"		// hot pink
 			}
 		},
 		{
@@ -819,7 +841,8 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				// "foreground": "#C792EA"  // this purple colour needs to change
+				"foreground": "#3b9282" 	// good green colour
 			}
 		},
 		{
@@ -902,6 +925,7 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+				// "foreground": "#FF0088"		// hot pink
 			}
 		},
 		{
@@ -911,6 +935,7 @@
 			],
 			"settings": {
 				"foreground": "#C792EA"
+				// "foreground": "#FF0088"
 			}
 		},
 		{
