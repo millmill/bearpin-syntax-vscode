@@ -18,3 +18,6 @@ All notable changes to the "Bearpip" extension will be documented in this file.
 
 ## "0.1.5"
 - Changed the overwhelming purple colour in some places. Added more green where it was lacking. Still not perfect, but we're getting closer I feel. (skipped 0.1.4 due to a typo)
+
+## "0.1.6"
+- Added a light theme, but it is a long way from being useful, I'm still working on fixing it up a lot, probably avoid using for the time being.

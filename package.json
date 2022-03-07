@@ -3,7 +3,7 @@
     "displayName": "Bearpip",
     "description": "I am trying to make a colour theme that's perfect for me and my eyes. Let's see if it works",
     "publisher": "CamBamCodes",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -14,6 +14,15 @@
         "url": "https://github.com/millmill/bearpip-syntax-vscode.git",
         "type": "git"
     },
+    "keywords": [
+        "Theme",
+        "Dark Theme",
+        "Light Theme",
+        "Bearpip"
+    ],
+    "scripts": {
+        "publish": "vsce publish"
+    },
     "categories": [
         "Themes"
     ],
@@ -22,7 +31,12 @@
             {
                 "label": "Bearpip",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Bearpip-color-theme.json"
+                "path": "./themes/bearpip-dark-color-theme.json"
+            },
+            {
+                "label": "Bearpip",
+                "uiTheme": "vs",
+                "path": "./themes/bearpip-light-color-theme.json"
             }
         ]
     }
