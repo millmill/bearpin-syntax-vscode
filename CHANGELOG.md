@@ -27,3 +27,6 @@ All notable changes to the "Bearpip" extension will be documented in this file.
 
 ## "0.1.8"
 - Added better colour light theme.
+
+## "0.1.9"
+- Added more updates on colour for light theme.

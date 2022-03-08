@@ -1,2 +1,14 @@
+### OSX ###
+*.DS_Store
+
+### Node ###
 node_modules
 *.vsix
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+demo/colourOptions.css
+demo/schema.cds

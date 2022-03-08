@@ -4,7 +4,8 @@
 
 * This folder contains all of the files necessary for your color theme extension.
 * `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Bearpip-color-theme.json` - the color theme definition file.
+* `themes/bearpip-dark-color-theme.json` - the dark color theme definition file.
+* `themes/bearpip-light-color-theme.json` - the light color theme definition file.
 
 ## Get up and running straight away
 

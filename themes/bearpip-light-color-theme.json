@@ -3,7 +3,7 @@
 	"displayName": "fill this in later. cb",
 	"description": "My screen is not good quality so I need to try to find a theme that helps me read code despite this fact",
 	"publisher": "CamBamCodes",
-	"version": "0.1.8",		// change package.json for vsce publish to work
+	"version": "0.1.9",		// change package.json for vsce publish to work
 	"engines": {
 		"vscode": ""
 	},
@@ -37,7 +37,6 @@
 		},
 		"variable": "#fff",
 		"interface": {
-			// "foreground": "#ff0088",
 			"foreground": "#FF68B8",
 			"italic": true
 		},
@@ -48,10 +47,8 @@
 			-----------------------------------------------------------------------------
 			Defaults for editor elements, will be used if not set by a specific component
 			focusBorder. TODO: widget.shadow, selection.background */
-			"foreground": "#E6E6E6", 			// "_foreground", from panda
-			"errorForeground": "#FF4B82",		  // "_light-red",
-			// "foreground": "#ff0088",
-			// "foreground": "#FF68B8",
+			"errorForeground": "#ff4b82",		  // "_light-red",
+			"foreground": "#403f53",			// from light owl
 			"italic": true
 		},
 		/* This colours both object definiton properties, as well as references.
@@ -70,7 +67,7 @@
 	
 	"colors": {
 		// menu
-		"menu.selectionForeground": "#fff",
+		"menu.selectionForeground": "#403f53",
 		"menubar.selectionBackground": "#0d3a58",
 		
 		/*
@@ -79,21 +76,13 @@
 		-----------------------------------------------------------------------------
 		The far left sidebar (which can be hidden with: Toggle Activity Bar Visibility!)
 		*/
-		// "activityBar.background": "#222223",				// _charcoal, panda
 		"activityBar.foreground": "#403f53", 				// _foreground, light owl
-		// "activityBar.border": "#222223",					// _charcoal, panda
 		"activityBar.border": "#ffc600",
-		// "activityBarBadge.background": "#19f9d8", 				// _green, panda
-		// "activityBarBadge.foreground": "#242526", 			// _background-dark, panda
 		/*----------------------------------------------------------------------------*/
 		"activityBar.background": "#F0F0F0",		// EDGING almost white light owl
-		// "activityBar.background": "#011627", 		// dark blue
-		// "activityBar.border": "#0d3a58",			// navy blue
-		// "activityBar.border": "#011627", 			// dark blue
 		// "activityBar.dropBackground": "#0d3a58",  // this one doesn't get accepted for whatever reason
-		// "activityBar.foreground": "#fff",
-		"activityBarBadge.background": "#ffc600",		// nice yellow
-		// "activityBarBadge.background": "#007acc",			// nice blue
+		// badge is the notifications icon:
+		"activityBarBadge.background": "#ffc600",		// nice yello
 		"activityBarBadge.foreground": "#000",
 
 		/* -----------------------------------------------------------------------------
@@ -102,14 +91,11 @@
 		*/
 		"badge.background": "#6FC1FF",					// _light-blue, panda
 		"badge.foreground": "#242526",					// _background-dark, panda
-		// "badge.background": "#ffc600",
-		// "badge.foreground": "#000",
 		/*-----------------------------------------------------------------------------
 		ProgressBar
 		-----------------------------------------------------------------------------
 		*/
 		"progressBar.background": "#B084EB",			// _purple,
-		// "progressBar.background": "#ffc600",  		  // yellow,
 		/*----------------------------------------------------------------------------*/
 		// button
 		"button.background": "#0088ff",
@@ -121,12 +107,12 @@
 		"contrastBorder": "#ffffff00",
 		
 		// debug
-		"debugExceptionWidget.background": "#193549",
+		"debugExceptionWidget.background": "#f0f0f0",
 		"debugExceptionWidget.border": "#aaa",
-		"debugToolBar.background": "#193549",
+		"debugToolBar.background": "#f0f0f0",
 		
 		// description
-		"descriptionForeground": "#aaa",
+		"descriptionForeground": "#403f53",
 		
 		// diff
 		"diffEditor.insertedTextBackground": "#3ad90033",
@@ -136,7 +122,7 @@
 		// dropdown
 		"dropdown.background": "#193549",
 		"dropdown.border": "#15232d",
-		"dropdown.foreground": "#fff",
+		"dropdown.foreground": "#403f53",
 
 		// ----------------------------------------------------------------------------------------------
 		// editor
@@ -181,7 +167,7 @@
 		"editor.wordHighlightBackground": "#ffffff21",
 		"editorBracketMatch.background": "#0d3a58",
 		"editorBracketMatch.border": "#ffc60080",
-		"editorCodeLens.foreground": "#aaa",
+		"editorCodeLens.foreground": "#403f53",
 		"editorCursor.foreground": "#ffc600",
 		"editorError.border": "#0d3a58",
 		"editorError.foreground": "#A22929",
@@ -210,8 +196,8 @@
 		"editorHoverWidget.background": "#15232d",
 		"editorHoverWidget.border": "#0d3a58",
 		"editorIndentGuide.background": "#3B5364",
-		"editorLineNumber.foreground": "#aaa",
-		"editorLink.activeForeground": "#aaa",
+		"editorLineNumber.foreground": "#90A7B2",
+		"editorLink.activeForeground": "#403f53",
 		
 		// editorMarkerNavigation
 		"editorMarkerNavigation.background": "#3B536433",
@@ -223,35 +209,37 @@
 		"editorOverviewRuler.commonContentForeground": "#ffc60055",
 		"editorOverviewRuler.currentContentForeground": "#ee3a4355",
 		"editorOverviewRuler.incomingContentForeground": "#3ad90055",
-		"editorRuler.foreground": "#1F4662",
+		"editorRuler.foreground": "#9d9d9d",
 		
 		// editorSuggestWidget
-		"editorSuggestWidget.background": "#15232d",			// EDGING
+		"editorSuggestWidget.background": "#f0f0f0",			// EDGING
 		"editorSuggestWidget.border": "#15232d",				// EDGING
-		"editorSuggestWidget.foreground": "#aaa",
+		"editorSuggestWidget.foreground": "#403f53",
 		"editorSuggestWidget.highlightForeground": "#ffc600",
-		"editorSuggestWidget.selectedBackground": "#193549",	// EDGING
+		"editorSuggestWidget.selectedBackground": "#cbe6fa",	// EDGING
 		
 		// editorWarning
 		"editorWarning.border": "#ffffff00",
 		"editorWarning.foreground": "#ffc600",
-		"editorWhitespace.foreground": "#ffffff1a",
-		"editorWidget.background": "#15232d",					// EDGING
+		"editorWhitespace.foreground": "#d9d9d91a",
+		"editorWidget.background": "#f0f0f0",					// EDGING
 		"editorWidget.border": "#0d3a58",
 		"errorForeground": "#A22929",
 		
 		// extensionButton
 		"extensionButton.prominentBackground": "#0088ff",
-		"extensionButton.prominentForeground": "#fff",
+		"extensionButton.prominentForeground": "#F0F0F0",
+		// "extensionButton.prominentBackground": "#2AA298",		// GREAT take on tiffany green
 		"extensionButton.prominentHoverBackground": "#ff9d00",
 		"focusBorder": "#0d3a58",
-		"foreground": "#aaa",
+
+		"foreground": "#ffa500",			// ALL TEXT COLOURS neon orange
 		
 		// input
 		"input.background": "#193549",			// EDGING - search menu entry box
 		"input.border": "#0d3a58",
 		"input.foreground": "#ffc600",
-		"input.placeholderForeground": "#aaa",
+		"input.placeholderForeground": "#93A1A1",
 		"inputOption.activeBorder": "#8dffff",
 		"inputValidation.errorBackground": "#193549",
 		"inputValidation.errorBorder": "#ffc600",
@@ -381,16 +369,12 @@
 		// "statusBarItem.prominentHoverBackground": "#0d3a58",
 		
 		// tab
-		"tab.activeBackground": "#193549",		// EDGING - the tab you are currently on
-		// "tab.activeBackground": "#292A2B",		// _background-light, panda
+		"tab.activeBackground": "#E6E6E6",		// EDGING - the tab you are currently on softwhite
 		// "tab.activeForeground": "#fff",
 		"tab.activeForeground": "#BCAAFE",		// _light-purple panda text tab title currently using
-		// "tab.border": "#e407d9",				// bright pink
 		"tab.border": "#aaa",				// faint grey
-		// "tab.border": "#ffc600",
 		"tab.activeBorder": "#ffc600",
 		"tab.inactiveBackground": "#F0F0F0",		// EDGING
-		// "tab.inactiveBackground": "#242526",		// _background-dark, panda
 		"tab.inactiveForeground": "#aaa",			// text tab title - inactive
 		"tab.unfocusedActiveForeground": "#aaa",		// tab text title same split section
 		"tab.unfocusedInactiveForeground": "#aaa",		// tab text title different split section
@@ -441,19 +425,14 @@
 		"textLink.foreground": "#0088ff",
 		"textPreformat.foreground": "#ffc600",
 		"textSeparator.foreground": "#0d3a58",
-		// "titleBar.activeBackground": "#437faa",		// EDGING - bar at the very top with traffic light buttons (if multiple windows - active window)
-		// "titleBar.activeBackground": "#242526",		// _background-dark, panda
-		"titleBar.activeBackground": "#086ef4e1",		// cornflower blue
-		// "titleBar.activeForeground": "#ffffff",
-		// "titleBar.inactiveBackground": "#ffc600",	// EDGING - bar at the very top with traffic light buttons (if multiple windows - inactive window)
-		// "titleBar.inactiveBackground": "#242526",		// _background-dark, panda
+		// EDGING - bar at the very top with traffic light buttons (if multiple windows - active window)
+		"titleBar.activeBackground": "#086ef4e1",		//  cornflower blue
+		// EDGING - bar at the very top with traffic light buttons (if multiple windows - inactive window)
 		"titleBar.inactiveBackground": "#1d928e",		// tiffany blue
-		// "titleBar.border": "#ff00dd",					//bright pink
 		
 		"titleBar.activeForeground": "#eeeeee",			// text colour very top title bar active window - almost white
         "titleBar.inactiveForeground": "#f7deaa",			// text colour very top title bar inactive window - hint of yellow
-        // "titleBar.activeBackground": "#16161e",
-        // "titleBar.inactiveBackground": "#16161e",
+
         "titleBar.border": "#101014",
 
 		"walkThrough.embeddedEditorBackground": "#0d3a58",
@@ -481,7 +460,6 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
-				// "foreground": "#FF0088"		// hot pink
 			}
 		},
 		{
@@ -510,7 +488,7 @@
 				"keyword"
 			],
 			"settings": {
-				// "foreground": "#C792EA"			// cds attribute name
+				// cds attribute name
 				"foreground": "#4cb667"				// great green option too irish flag-y for cds?
 			}
 		},
@@ -520,7 +498,6 @@
 				"storage.type"
 			],
 			"settings": {
-				// "foreground": "#C792EA"
 				"foreground": "#92fc79"
 			}
 		},
@@ -531,7 +508,6 @@
 			],
 			"settings": {
 				"foreground": "#C792EA"
-				// "foreground": "#92fc79"
 			}
 		},
 		{
@@ -623,8 +599,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#FFFFFF" 	// white
-				// "foreground": "#FF0088"		// hot pink
+				"foreground": "#FF0088" 	// hot pink
 			}
 		},
 		{
@@ -660,7 +635,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#047dad"
 			}
 		},
 		{
@@ -674,7 +649,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#9f34c9"
 			}
 		},
 		{
@@ -839,7 +814,6 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				// "foreground": "#C792EA"  // this purple colour needs to change
 				"foreground": "#3b9282" 	// good green colour
 			}
 		},
@@ -922,8 +896,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
-				// "foreground": "#FF0088"		// hot pink
+				"foreground": "#20f1f1"
 			}
 		},
 		{
@@ -933,7 +906,6 @@
 			],
 			"settings": {
 				"foreground": "#C792EA"
-				// "foreground": "#FF0088"
 			}
 		},
 		{
@@ -1082,7 +1054,7 @@
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#0f4616"
 			}
 		},
 		{
@@ -1110,7 +1082,7 @@
 				"markup.table"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#db8a19"
 			}
 		}
 	]
