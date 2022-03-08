@@ -21,3 +21,6 @@ All notable changes to the "Bearpip" extension will be documented in this file.
 
 ## "0.1.6"
 - Added a light theme, but it is a long way from being useful, I'm still working on fixing it up a lot, probably avoid using for the time being.
+
+## "0.1.7"
+- Fixed typos, add license.

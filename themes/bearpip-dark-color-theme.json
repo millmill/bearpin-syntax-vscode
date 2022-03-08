@@ -1,9 +1,9 @@
 {
-	"name": "Bearpip",
+	"name": "Bearpip Dark",
 	"displayName": "fill this in later. cb",
 	"description": "My screen is not good quality so I need to try to find a theme that helps me read code despite this fact",
 	"publisher": "CamBamCodes",
-	"version": "0.1.6",		// change package.json for vsce publish to work
+	"version": "0.1.7",		// change package.json for vsce publish to work
 	"engines": {
 		"vscode": ""
 	},
@@ -25,7 +25,7 @@
 			{
 				"label": "whatever my label is. eg nanowise dark. cb",
 				"uiTheme": "vs-dark",
-				"path": ".themes/Bearpip-color-theme.json"
+				"path": ".themes/bearpip-dark-color-theme.json"
 			}
 		]
 	},
