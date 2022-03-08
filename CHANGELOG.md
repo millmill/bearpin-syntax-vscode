@@ -24,3 +24,6 @@ All notable changes to the "Bearpip" extension will be documented in this file.
 
 ## "0.1.7"
 - Fixed typos, add license.
+
+## "0.1.8"
+- Added better colour light theme.
