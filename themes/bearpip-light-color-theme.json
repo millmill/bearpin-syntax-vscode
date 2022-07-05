@@ -3,7 +3,7 @@
 	"displayName": "fill this in later. cb",
 	"description": "My screen is not good quality so I need to try to find a theme that helps me read code despite this fact",
 	"publisher": "CamBamCodes",
-	"version": "0.1.9",		// change package.json for vsce publish to work
+	"version": "0.1.10",		// change package.json for vsce publish to work
 	"engines": {
 		"vscode": ""
 	},
@@ -37,7 +37,7 @@
 		},
 		"variable": "#fff",
 		"interface": {
-			"foreground": "#FF68B8",
+			"foreground": "#FF68B8",		// hot pink
 			"italic": true
 		},
 		"type": {
@@ -120,9 +120,12 @@
 		"diffEditor.removedTextBackground": "#ee3a4333",
 		"diffEditor.removedTextBorder": "#ee3a4355",
 		// dropdown
-		"dropdown.background": "#193549",
-		"dropdown.border": "#15232d",
-		"dropdown.foreground": "#403f53",
+		// "dropdown.background": "#193549",
+		// "dropdown.border": "#15232d",
+		// "dropdown.foreground": "#403f53",
+		"dropdown.background": "#3ad90033",
+		"dropdown.border": "#f0f0f0",
+		"dropdown.foreground": "#f0f0f0",
 
 		// ----------------------------------------------------------------------------------------------
 		// editor
@@ -418,7 +421,8 @@
 		"gitDecoration.conflictingResourceForeground": "#FF7200",
 		
 		// textBlockQuote
-		"textBlockQuote.background": "#193549",
+		// "textBlockQuote.background": "#193549",
+		"textBlockQuote.background": "#d0fce6", 	// mint green
 		"textBlockQuote.border": "#0088ff",
 		"textCodeBlock.background": "#193549",
 		"textLink.activeForeground": "#0088ff",
@@ -436,8 +440,6 @@
         "titleBar.border": "#101014",
 
 		"walkThrough.embeddedEditorBackground": "#0d3a58",
-		"welcomePage.buttonBackground": "#193549",
-		"welcomePage.buttonHoverBackground": "#0d3a58",
 		"widget.shadow": "#00000026"
 	},
 	"tokenColors": [
@@ -459,7 +461,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#036666"		// green
 			}
 		},
 		{
@@ -468,7 +470,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#1f79ad"		// blue for text
 				// "foreground": "#FF0088"		// hot pink
 			}
 		},
